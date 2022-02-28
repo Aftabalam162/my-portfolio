@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    text-align: center;
+
+}
+
+div{
+    background-color: #e4f9f5;
+    
+}
+
+h1{
+    font-family: 'Satisfy', cursive;
+    
+    font-size: 562.5%;
+}
+
+p{
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+}
+
+.top-container{
+    background-color: skyblue;
+    padding: 100px;
+    position: relative;
+
+}
+
+.middle-container{
+    
+}
+
+.bottom-container{
+    
+}
+
+.top-cloud{
+    height: 90px;
+    position: absolute;
+    right :333px;
+    top: 20px;
+}
+
+.bottom-cloud{
+    height: 90px;
+    position: absolute;
+    left: 367px;
+    bottom: 425px;
+}
+
+.mountain{
+    height: 400px;
+}
