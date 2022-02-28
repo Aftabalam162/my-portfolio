@@ -1,23 +1,36 @@
 body {
     margin: 0px;
     text-align: center;
-
+    line-height: 2;
 }
 
 div{
     background-color: #e4f9f5;
     
+    
 }
 
 h1{
     font-family: 'Satisfy', cursive;
-    
-    font-size: 562.5%;
+    font-size: 90px;
+    color: black ;
+    line-height: normal;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    color: black ;
+    font-weight: normal;
+}
+h3{
+    color: #66BFBF;
+    font-size: 25px;
 }
 
 p{
     font-family: 'Merriweather', serif;
-    font-size: 35px;
+    font-size: 24px;
 }
 
 .top-container{
@@ -27,13 +40,6 @@ p{
 
 }
 
-.middle-container{
-    
-}
-
-.bottom-container{
-    
-}
 
 .top-cloud{
     height: 90px;
@@ -49,6 +55,99 @@ p{
     bottom: 425px;
 }
 
+.middle-container{
+    padding-top: 50px;
+}
+
 .mountain{
     height: 400px;
 }
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.html{
+    height: 200px;
+    float: left;
+    padding-right: 30px;
+}
+
+.css {
+    height: 200px;
+    float: right;
+    padding-right: 30px;
+}
+
+.bootstrap {
+    height: 200px;
+    float: left;
+    padding-right: 30px;
+}
+.javascript {
+    height: 200px;
+    float: right;
+    padding-right: 30px;
+}
+.jquery {
+    height: 200px;
+    float: left;
+    padding-right: 30px;
+}
+.nodejs {
+    height: 200px;
+    float: right;
+    padding-right: 30px;
+}
+
+.react {
+    height: 200px;
+    float: left;
+    padding-right: 30px;
+}
+
+.footer-link{
+    color: #66BFBF;
+
+}
+
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 20px;
+    background-color: #66BFBF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+ }
+ 
+ .btn:hover {
+    background: #97DDDD;
+    border: solid #97DDDD 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .bottom-container{
+    
+    background-color: #66BFBF;
+ }
+
+ hr {
+    border: 20px dotted lightgray;
+    width: 10%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+ }
